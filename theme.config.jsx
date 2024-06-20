@@ -20,20 +20,25 @@ export default {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content="Swimlink Web Documentation" />
       <meta name="og:title" content="Swimlink Web Documentation" />
+      <link
+        rel="icon"
+        href="https://res.cloudinary.com/luvely/image/upload/v1718846086/favicon_yykon2.ico"
+      />
     </>
   ),
   navigation: {
     prev: true,
     next: true,
   },
-  gitTimestamp: () => {
-    const { gitTimestamp } = useConfig();
-    return (
-      <div>
-        <p>Last Updated: {gitTimestamp}</p>
-      </div>
-    );
-  },
+  // gitTimestamp: () => {
+  //   const { gitTimestamp } = useConfig();
+  //   console.log("gitTimestamp :>> ", gitTimestamp);
+  //   return (
+  //     <div>
+  //       <p>Last Updated: {gitTimestamp}</p>
+  //     </div>
+  //   );
+  // },
   footer: {
     text: (
       <>
